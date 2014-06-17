@@ -1,10 +1,6 @@
 //
 //  TestSwiftTests.swift
 //  TestSwiftTests
-//
-//  Created by Creative M on 6/11/14.
-//  Copyright (c) 2014 creative. All rights reserved.
-//
 
 import XCTest
 
