@@ -10,6 +10,8 @@
 		784547F519492A3C00AC5B11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784547F419492A3C00AC5B11 /* AppDelegate.swift */; };
 		784547F719492A3C00AC5B11 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 784547F619492A3C00AC5B11 /* Images.xcassets */; };
 		7845480319492A3C00AC5B11 /* TestSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7845480219492A3C00AC5B11 /* TestSwiftTests.swift */; };
+		7845480E19492A7400AC5B11 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7845480C19492A7400AC5B11 /* TestViewController.swift */; };
+		7845480F19492A7400AC5B11 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7845480D19492A7400AC5B11 /* TestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +32,8 @@
 		784547FC19492A3C00AC5B11 /* TestSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7845480119492A3C00AC5B11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7845480219492A3C00AC5B11 /* TestSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSwiftTests.swift; sourceTree = "<group>"; };
+		7845480C19492A7400AC5B11 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		7845480D19492A7400AC5B11 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				784547F419492A3C00AC5B11 /* AppDelegate.swift */,
+				7845480C19492A7400AC5B11 /* TestViewController.swift */,
+				7845480D19492A7400AC5B11 /* TestViewController.xib */,
 				784547F619492A3C00AC5B11 /* Images.xcassets */,
 				784547F219492A3C00AC5B11 /* Supporting Files */,
 			);
@@ -182,6 +188,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7845480F19492A7400AC5B11 /* TestViewController.xib in Resources */,
 				784547F719492A3C00AC5B11 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7845480E19492A7400AC5B11 /* TestViewController.swift in Sources */,
 				784547F519492A3C00AC5B11 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
